@@ -1,0 +1,14 @@
+C:\Users\I1004369\Documents\LemonSharp\ConsoleLab1\bin\Debug\net8.0\ConsoleLab1.exe
+C:\Users\I1004369\Documents\LemonSharp\ConsoleLab1\bin\Debug\net8.0\ConsoleLab1.deps.json
+C:\Users\I1004369\Documents\LemonSharp\ConsoleLab1\bin\Debug\net8.0\ConsoleLab1.runtimeconfig.json
+C:\Users\I1004369\Documents\LemonSharp\ConsoleLab1\bin\Debug\net8.0\ConsoleLab1.dll
+C:\Users\I1004369\Documents\LemonSharp\ConsoleLab1\bin\Debug\net8.0\ConsoleLab1.pdb
+C:\Users\I1004369\Documents\LemonSharp\ConsoleLab1\obj\Debug\net8.0\ConsoleLab1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\I1004369\Documents\LemonSharp\ConsoleLab1\obj\Debug\net8.0\ConsoleLab1.AssemblyInfoInputs.cache
+C:\Users\I1004369\Documents\LemonSharp\ConsoleLab1\obj\Debug\net8.0\ConsoleLab1.AssemblyInfo.cs
+C:\Users\I1004369\Documents\LemonSharp\ConsoleLab1\obj\Debug\net8.0\ConsoleLab1.csproj.CoreCompileInputs.cache
+C:\Users\I1004369\Documents\LemonSharp\ConsoleLab1\obj\Debug\net8.0\ConsoleLab1.dll
+C:\Users\I1004369\Documents\LemonSharp\ConsoleLab1\obj\Debug\net8.0\refint\ConsoleLab1.dll
+C:\Users\I1004369\Documents\LemonSharp\ConsoleLab1\obj\Debug\net8.0\ConsoleLab1.pdb
+C:\Users\I1004369\Documents\LemonSharp\ConsoleLab1\obj\Debug\net8.0\ConsoleLab1.genruntimeconfig.cache
+C:\Users\I1004369\Documents\LemonSharp\ConsoleLab1\obj\Debug\net8.0\ref\ConsoleLab1.dll
