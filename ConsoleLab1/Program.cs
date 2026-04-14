@@ -100,8 +100,37 @@ class ProgramCSharp01
     // EJERCICIO 6:
     protected void Ejercicio6()
     {
-        Console.Write("\n\nEscriba un caracter: ");
-        char.TryParse(Console.ReadLine(), out char c);
+        Console.Write("\n\nEscriba un número de filas: ");
+        int.TryParse(Console.ReadLine(), out int filas);
+        Console.Write("Escriba un caracter: ");
+        string? input = Console.ReadLine();
+        char c = !string.IsNullOrEmpty(input) ? input[0] : '*';
+        if (filas <= 0)
+        {
+            Console.WriteLine("\nDebe ingresar un número de filas mayor que 0.");
+            Console.ReadLine();
+            return;
+        }
+        Console.WriteLine();
+        int i = 0;
+        while (++i <= filas)
+        {
+            if (i == 1)
+            {
+                Console.WriteLine(c);
+            }
+            else if (i == filas)
+            {
+                Console.WriteLine(new string(c, filas));
+            }
+            else
+            {
+                Console.Write(c);
+                Console.Write(new string(' ', i - 2));
+                Console.WriteLine(c);
+            }
+        }
+        Console.ReadLine();
     }
 
     static void Main(string[] args)

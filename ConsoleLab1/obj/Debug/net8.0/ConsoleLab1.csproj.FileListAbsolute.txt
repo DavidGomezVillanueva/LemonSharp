@@ -12,3 +12,4 @@ C:\Users\I1004369\Documents\LemonSharp\ConsoleLab1\obj\Debug\net8.0\refint\Conso
 C:\Users\I1004369\Documents\LemonSharp\ConsoleLab1\obj\Debug\net8.0\ConsoleLab1.pdb
 C:\Users\I1004369\Documents\LemonSharp\ConsoleLab1\obj\Debug\net8.0\ConsoleLab1.genruntimeconfig.cache
 C:\Users\I1004369\Documents\LemonSharp\ConsoleLab1\obj\Debug\net8.0\ref\ConsoleLab1.dll
+C:\Users\I1004369\Documents\LemonSharp\ConsoleLab1\obj\Debug\net8.0\ConsoleLab1.sourcelink.json
