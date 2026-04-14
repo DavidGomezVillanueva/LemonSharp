@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Security.Cryptography;
+// using System.Security.Cryptography;
 
 class ProgramCSharp01
 {

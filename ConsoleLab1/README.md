@@ -22,10 +22,12 @@ Crea una aplicación de consola por cada uno de los siguientes enunciados:
 
 6 – Solicitar un número al usuario y un carácter. Crear una pirámide con N filas y el carácter solicitado. Por ejemplo, si el usuario introduce 5 y * el resultado por consola debería ser:
 
-\*
-\*\*
-\* \*
-\*  \*
-\*\*\*\*\*
+```
+*
+**
+* *
+*  *
+*****
+```
 
 ![Ejercicio 6](./images/ej6.png)
