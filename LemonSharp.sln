@@ -20,6 +20,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ej\Persona
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleLab2", "ConsoleLab2\ConsoleLab2.csproj", "{D508C0B5-1C50-4E71-82C6-E900D951A023}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleLab3", "ConsoleLab3\ConsoleLab3.csproj", "{927CFC6C-0039-4B50-87C1-0884789EB7EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,6 +56,10 @@ Global
 		{D508C0B5-1C50-4E71-82C6-E900D951A023}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D508C0B5-1C50-4E71-82C6-E900D951A023}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D508C0B5-1C50-4E71-82C6-E900D951A023}.Release|Any CPU.Build.0 = Release|Any CPU
+		{927CFC6C-0039-4B50-87C1-0884789EB7EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{927CFC6C-0039-4B50-87C1-0884789EB7EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{927CFC6C-0039-4B50-87C1-0884789EB7EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{927CFC6C-0039-4B50-87C1-0884789EB7EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
