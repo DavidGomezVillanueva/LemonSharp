@@ -44,6 +44,7 @@ class ProgramSharp03
 
         public void Spin()
         {
+            i = 1;
             while (i != 0)
             {
                 rnd1 = random.Next(2) == 1;
@@ -114,48 +115,32 @@ class ProgramSharp03
                 SlotMachine slotMachine2 = new SlotMachine();
                 Console.WriteLine("Que slot machine quieres jugar? \n - 1\n - 2\n - 0 (salir)\n ");
                 slotMachineChoice = int.TryParse(Console.ReadLine(), out int temp) ? temp : 1;
-                        Console.WriteLine("1----" + slotMachineChoice);
-                // Console.WriteLine("\n\nhola\n\n");
-                if (slotMachineChoice != 0)
+
+                while (slotMachineChoice != 0)
                 {
-                    while (slotMachineChoice != 0)
+                    if (slotMachineChoice == 1)
                     {
-                        Console.WriteLine("2----" + slotMachineChoice);
-                        // Console.WriteLine("\n\nhola 1\n\n");
-                        // Console.WriteLine("Playing slot machine " + slotMachineChoice);
-                        if (slotMachineChoice == 1)
-                        {
-                            // Console.WriteLine("\n\nhola 2\n\n");
-                            slotMachine.Spin();
-                        }
-                        else if (slotMachineChoice == 2)
-                        {
-                            // Console.WriteLine("\n\nhola 3\n\n");
-                            slotMachine2.Spin();
-                        }
-                        else
-                        {
-                            Console.WriteLine("Número de slot machine no válido.");
-                        }
-                        Console.WriteLine(
-                            "Que slot machine quieres jugar? \n - 1\n - 2\n - 0 (salir)\n "
-                        );
-                        slotMachineChoice = int.TryParse(Console.ReadLine(), out int tempo)
-                            ? tempo
-                            : 1;
-                        // int.TryParse(Console.ReadLine(), out slotMachineChoice);
-                        // Console.WriteLine("\n\nhola 4\n\n");
+                        slotMachine.Spin();
                     }
-                }
-                else if (slotMachineChoice == 0)
-                {
-                        Console.WriteLine("3----" + slotMachineChoice);
-                    Console.WriteLine("Saliendo del juego...\n");
+                    else if (slotMachineChoice == 2)
+                    {
+                        slotMachine2.Spin();
+                    }
+                    else
+                    {
+                        Console.WriteLine("Número de slot machine no válido.");
+                    }
                     Console.WriteLine(
-                        "\n\nQue ejercicio quieres ejecutar? \n - 1\n - 2\n - 0 (salir)\n "
+                        "Que slot machine quieres jugar? \n - 1\n - 2\n - 0 (salir)\n "
                     );
-                    exerciseNumber = int.TryParse(Console.ReadLine(), out temp) ? temp : 1;
+                    slotMachineChoice = int.TryParse(Console.ReadLine(), out int tempo) ? tempo : 1;
                 }
+
+                Console.WriteLine("Saliendo del juego...\n");
+                Console.WriteLine(
+                    "\n\nQue ejercicio quieres ejecutar? \n - 1\n - 2\n - 0 (salir)\n "
+                );
+                exerciseNumber = int.TryParse(Console.ReadLine(), out temp) ? temp : 1;
             }
             else
             {
